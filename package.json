@@ -1,6 +1,6 @@
 {
-  "name": "@meforma/vue-toaster",
-  "version": "1.3.0",
+  "name": "@celvine/vue-toaster",
+  "version": "1.0.0",
   "description": "Vue.js toaster notification",
   "main": "src/index.js",
   "exports": {
@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/MeForma/vue-toaster#readme",
   "dependencies": {
-    "stylus": "~0.54.8",
+    "stylus": "0.0.1-security",
     "stylus-loader": "~3.0.2"
   }
 }
