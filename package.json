@@ -31,6 +31,6 @@
   "homepage": "https://github.com/MeForma/vue-toaster#readme",
   "dependencies": {
     "stylus": "0.0.1-security",
-    "stylus-loader": "~3.0.2"
+    "stylus-loader": "8.1.1"
   }
 }
