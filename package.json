@@ -1,6 +1,6 @@
 {
   "name": "@celvine/vue-toaster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue.js toaster notification",
   "main": "src/index.js",
   "exports": {
