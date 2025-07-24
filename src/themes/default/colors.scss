@@ -1,4 +1,6 @@
-@each $key, $value in $toast-colors {
+@use './variables';
+
+@each $key, $value in variables.$toast-colors {
   .vue-toaster--#{$key} {
     background-color: $value;
   }

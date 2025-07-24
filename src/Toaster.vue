@@ -198,9 +198,4 @@ export default {
 
 <style lang="scss">
 @use './themes/default/index.scss';
-
-.v--default-css {
-  @use './themes/default/colors.scss';
-  @use './themes/default/toast.scss';
-}
 </style>
