@@ -197,10 +197,10 @@ export default {
 </script>
 
 <style lang="scss">
-@import './themes/default/index.scss';
+@use './themes/default/index.scss';
 
 .v--default-css {
-  @import './themes/default/colors.scss';
-  @import './themes/default/toast.scss';
+  @use './themes/default/colors.scss';
+  @use './themes/default/toast.scss';
 }
 </style>

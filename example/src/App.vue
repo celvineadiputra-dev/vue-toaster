@@ -1,40 +1,22 @@
-<template>
-  <div>
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <HelloWorld msg="Welcome to Vue Toaster Example" />
-  </div>
-</template>
-
-<script>
+<script setup>
 import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
-<style>
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+<template>
+  <HelloWorld msg="Vite + Vue" />
+</template>
 
-html,
-body {
-  padding: 0;
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-  padding: 0 60px;
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>

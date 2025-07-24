@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@celvine/vue-toaster@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@celvine/vue-toaster/-/vue-toaster-1.0.3.tgz#09731e4308714041fa1cea13f26185438239bbf5"
+  integrity sha512-pSYk9fC1KIoV7XPNXO4Q6mgsVggI4Im9TO2yq488Y5HcyUyCUfNpGZP8aoPSIHcd1BJwxQ/JN6lmW5NCeBsT9Q==
+  dependencies:
+    sass "^1.89.2"
+
 "@parcel/watcher-android-arm64@2.5.1":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@parcel/watcher-android-arm64/-/watcher-android-arm64-2.5.1.tgz#507f836d7e2042f798c7d07ad19c3546f9848ac1"

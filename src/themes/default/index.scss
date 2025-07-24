@@ -1,4 +1,4 @@
-@import 'variables';
-@import 'animations';
-@import 'toast-container';
-@import 'toast-positions';
+@forward 'variables';
+@forward 'animations';
+@use 'colors';
+@use 'toast';

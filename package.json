@@ -1,6 +1,6 @@
 {
   "name": "@celvine/vue-toaster",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue.js toaster notification",
   "main": "src/index.js",
   "exports": {
@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/MeForma/vue-toaster#readme",
   "dependencies": {
+    "@celvine/vue-toaster": "^1.0.3",
     "sass": "^1.89.2"
   }
 }
